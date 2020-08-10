@@ -1,5 +1,5 @@
   
-FROM armv7/node:12-stretch-slim
+FROM arm32v7/node:12-stretch-slim
 
 WORKDIR /frontail
 ADD . .
